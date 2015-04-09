@@ -7,7 +7,7 @@
 //
 
 #import "ParentVC.h"
-#import "ChildVC1.h"
+#import "ChildTVC1.h"
 #import "ChildVC2.h"
 #import "ChildVC3.h"
 
@@ -23,7 +23,7 @@
 
 @interface ParentVC ()
 
-@property (strong, nonatomic) ChildVC1 *childvc1;
+@property (strong, nonatomic) ChildTVC1 *childvc1;
 @property (strong, nonatomic) ChildVC2 *childvc2;
 @property (strong, nonatomic) ChildVC3 *childvc3;
 
@@ -42,8 +42,8 @@
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor lightGrayColor];
     
-    // Children
-    self.childvc1 = [[ChildVC1 alloc] init];
+    // Children View Controllers
+    self.childvc1 = [[ChildTVC1 alloc] init];
     self.childvc1.view.frame = CGRectMake(0,
                                           STATUS_BAR_HEIGHT,
                                           self.view.frame.size.width*CHILD1_RATIO_WIDTH,

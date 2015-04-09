@@ -18,6 +18,8 @@
 		5A7519FE1AD5F86000B0DF64 /* ChildVC1.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7519FD1AD5F86000B0DF64 /* ChildVC1.m */; };
 		5A751A011AD5F88A00B0DF64 /* ChildVC2.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A751A001AD5F88A00B0DF64 /* ChildVC2.m */; };
 		5A751A041AD5F8AB00B0DF64 /* ChildVC3.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A751A031AD5F8AB00B0DF64 /* ChildVC3.m */; };
+		5A751A071AD6274600B0DF64 /* ChildTVC1.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A751A061AD6274600B0DF64 /* ChildTVC1.m */; };
+		5A751A0D1AD6313300B0DF64 /* TaskItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A751A0C1AD6313300B0DF64 /* TaskItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,10 @@
 		5A751A001AD5F88A00B0DF64 /* ChildVC2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildVC2.m; sourceTree = "<group>"; };
 		5A751A021AD5F8AB00B0DF64 /* ChildVC3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildVC3.h; sourceTree = "<group>"; };
 		5A751A031AD5F8AB00B0DF64 /* ChildVC3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildVC3.m; sourceTree = "<group>"; };
+		5A751A051AD6274600B0DF64 /* ChildTVC1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildTVC1.h; sourceTree = "<group>"; };
+		5A751A061AD6274600B0DF64 /* ChildTVC1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildTVC1.m; sourceTree = "<group>"; };
+		5A751A0B1AD6313300B0DF64 /* TaskItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskItem.h; sourceTree = "<group>"; };
+		5A751A0C1AD6313300B0DF64 /* TaskItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +103,16 @@
 				5A7519D81AD5F72500B0DF64 /* AppDelegate.m */,
 				5A7519F91AD5F82A00B0DF64 /* ParentVC.h */,
 				5A7519FA1AD5F82A00B0DF64 /* ParentVC.m */,
+				5A751A051AD6274600B0DF64 /* ChildTVC1.h */,
+				5A751A061AD6274600B0DF64 /* ChildTVC1.m */,
 				5A7519FC1AD5F86000B0DF64 /* ChildVC1.h */,
 				5A7519FD1AD5F86000B0DF64 /* ChildVC1.m */,
 				5A7519FF1AD5F88A00B0DF64 /* ChildVC2.h */,
 				5A751A001AD5F88A00B0DF64 /* ChildVC2.m */,
 				5A751A021AD5F8AB00B0DF64 /* ChildVC3.h */,
 				5A751A031AD5F8AB00B0DF64 /* ChildVC3.m */,
+				5A751A0B1AD6313300B0DF64 /* TaskItem.h */,
+				5A751A0C1AD6313300B0DF64 /* TaskItem.m */,
 				5A7519DA1AD5F72500B0DF64 /* ViewController.h */,
 				5A7519DB1AD5F72500B0DF64 /* ViewController.m */,
 				5A7519DD1AD5F72500B0DF64 /* Main.storyboard */,
@@ -239,6 +249,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A751A071AD6274600B0DF64 /* ChildTVC1.m in Sources */,
+				5A751A0D1AD6313300B0DF64 /* TaskItem.m in Sources */,
 				5A7519FB1AD5F82A00B0DF64 /* ParentVC.m in Sources */,
 				5A7519DC1AD5F72500B0DF64 /* ViewController.m in Sources */,
 				5A751A011AD5F88A00B0DF64 /* ChildVC2.m in Sources */,
