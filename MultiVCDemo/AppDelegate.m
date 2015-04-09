@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ParentVC.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,28 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    /*
+     Instantiate UIViewControllers (custom view controllers)
+     */
+    ParentVC *parentVC = [[ParentVC alloc] init];
+    
+    /*
+     Instantiate a UIWindow to manage and coordinate the app's views
+     that is set to the bounds of the physical device's main screen.
+     */
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    /*
+     Installs the view controller’s view as the content view of the window.
+     */
+    self.window.rootViewController = parentVC;
+    
+    /*
+     Make the receiver the main window and display it in front of other windows at the same window level.
+     */
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

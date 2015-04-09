@@ -14,6 +14,10 @@
 		5A7519E11AD5F72500B0DF64 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A7519E01AD5F72500B0DF64 /* Images.xcassets */; };
 		5A7519E41AD5F72500B0DF64 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A7519E21AD5F72500B0DF64 /* LaunchScreen.xib */; };
 		5A7519F01AD5F72500B0DF64 /* MultiVCDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7519EF1AD5F72500B0DF64 /* MultiVCDemoTests.m */; };
+		5A7519FB1AD5F82A00B0DF64 /* ParentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7519FA1AD5F82A00B0DF64 /* ParentVC.m */; };
+		5A7519FE1AD5F86000B0DF64 /* ChildVC1.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7519FD1AD5F86000B0DF64 /* ChildVC1.m */; };
+		5A751A011AD5F88A00B0DF64 /* ChildVC2.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A751A001AD5F88A00B0DF64 /* ChildVC2.m */; };
+		5A751A041AD5F8AB00B0DF64 /* ChildVC3.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A751A031AD5F8AB00B0DF64 /* ChildVC3.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,14 @@
 		5A7519E91AD5F72500B0DF64 /* MultiVCDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiVCDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A7519EE1AD5F72500B0DF64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A7519EF1AD5F72500B0DF64 /* MultiVCDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiVCDemoTests.m; sourceTree = "<group>"; };
+		5A7519F91AD5F82A00B0DF64 /* ParentVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParentVC.h; sourceTree = "<group>"; };
+		5A7519FA1AD5F82A00B0DF64 /* ParentVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParentVC.m; sourceTree = "<group>"; };
+		5A7519FC1AD5F86000B0DF64 /* ChildVC1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildVC1.h; sourceTree = "<group>"; };
+		5A7519FD1AD5F86000B0DF64 /* ChildVC1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildVC1.m; sourceTree = "<group>"; };
+		5A7519FF1AD5F88A00B0DF64 /* ChildVC2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildVC2.h; sourceTree = "<group>"; };
+		5A751A001AD5F88A00B0DF64 /* ChildVC2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildVC2.m; sourceTree = "<group>"; };
+		5A751A021AD5F8AB00B0DF64 /* ChildVC3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildVC3.h; sourceTree = "<group>"; };
+		5A751A031AD5F8AB00B0DF64 /* ChildVC3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildVC3.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +95,14 @@
 			children = (
 				5A7519D71AD5F72500B0DF64 /* AppDelegate.h */,
 				5A7519D81AD5F72500B0DF64 /* AppDelegate.m */,
+				5A7519F91AD5F82A00B0DF64 /* ParentVC.h */,
+				5A7519FA1AD5F82A00B0DF64 /* ParentVC.m */,
+				5A7519FC1AD5F86000B0DF64 /* ChildVC1.h */,
+				5A7519FD1AD5F86000B0DF64 /* ChildVC1.m */,
+				5A7519FF1AD5F88A00B0DF64 /* ChildVC2.h */,
+				5A751A001AD5F88A00B0DF64 /* ChildVC2.m */,
+				5A751A021AD5F8AB00B0DF64 /* ChildVC3.h */,
+				5A751A031AD5F8AB00B0DF64 /* ChildVC3.m */,
 				5A7519DA1AD5F72500B0DF64 /* ViewController.h */,
 				5A7519DB1AD5F72500B0DF64 /* ViewController.m */,
 				5A7519DD1AD5F72500B0DF64 /* Main.storyboard */,
@@ -219,9 +239,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A7519FB1AD5F82A00B0DF64 /* ParentVC.m in Sources */,
 				5A7519DC1AD5F72500B0DF64 /* ViewController.m in Sources */,
+				5A751A011AD5F88A00B0DF64 /* ChildVC2.m in Sources */,
 				5A7519D91AD5F72500B0DF64 /* AppDelegate.m in Sources */,
+				5A7519FE1AD5F86000B0DF64 /* ChildVC1.m in Sources */,
 				5A7519D61AD5F72500B0DF64 /* main.m in Sources */,
+				5A751A041AD5F8AB00B0DF64 /* ChildVC3.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
