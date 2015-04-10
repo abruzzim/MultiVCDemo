@@ -10,4 +10,6 @@
 
 @interface ChildVC1 : UIViewController
 
+- (void)userDidTouchMe:(UIButton*)button;
+
 @end

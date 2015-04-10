@@ -8,7 +8,7 @@
 
 #import "ChildVC1.h"
 
-@interface ChildVC1 ()
+@interface ChildVC1()
 
 @end
 
@@ -16,7 +16,55 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     self.view.backgroundColor = [UIColor orangeColor];
+    
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    
+    button.layer.cornerRadius = 10;
+    
+    [button addTarget:self
+               action:@selector(userDidTouchMe:)
+     forControlEvents:UIControlEventTouchUpInside];
+    
+    [button setTitle:@"Button"
+            forState:UIControlStateNormal];
+    
+    button.titleLabel.font = [UIFont fontWithName:@"HelveticaNeue-Medium" size:32.0f];
+    NSLog(@"%@", [UIFont fontNamesForFamilyName:@"Helvetica Neue"]);
+    
+    /*
+    // List all fonts on iPhone
+    NSArray *familyNames = [[NSArray alloc] initWithArray:[UIFont familyNames]];
+    NSArray *fontNames;
+    NSInteger indFamily, indFont;
+    for (indFamily=0; indFamily<[familyNames count]; ++indFamily)
+    {
+        NSLog(@"Family name: %@", [familyNames objectAtIndex:indFamily]);
+        fontNames = [[NSArray alloc] initWithArray:
+                     [UIFont fontNamesForFamilyName:
+                      [familyNames objectAtIndex:indFamily]]];
+        for (indFont=0; indFont<[fontNames count]; ++indFont)
+        {
+            NSLog(@"    Font name: %@", [fontNames objectAtIndex:indFont]);
+        }
+    }
+     */
+    
+    button.frame = CGRectMake(180.0, 210.0, 180.0, 60.0);
+    
+    button.backgroundColor = [UIColor cyanColor];
+    
+    [button setTitleColor:[UIColor whiteColor]
+                 forState:UIControlStateNormal ];
+    
+    [self.view addSubview:button];
+    
+}
+
+- (void)userDidTouchMe:(UIButton*)button
+{
+    NSLog(@"%%userDidTouchMe-I-DEBUG, button touched.");
 }
 
 - (void)didReceiveMemoryWarning {

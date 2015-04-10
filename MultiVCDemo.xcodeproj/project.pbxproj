@@ -20,6 +20,7 @@
 		5A751A041AD5F8AB00B0DF64 /* ChildVC3.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A751A031AD5F8AB00B0DF64 /* ChildVC3.m */; };
 		5A751A071AD6274600B0DF64 /* ChildTVC1.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A751A061AD6274600B0DF64 /* ChildTVC1.m */; };
 		5A751A0D1AD6313300B0DF64 /* TaskItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A751A0C1AD6313300B0DF64 /* TaskItem.m */; };
+		B2C2F3071AD7457700069FB1 /* SubChildVC1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C2F3061AD7457700069FB1 /* SubChildVC1ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		5A751A061AD6274600B0DF64 /* ChildTVC1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildTVC1.m; sourceTree = "<group>"; };
 		5A751A0B1AD6313300B0DF64 /* TaskItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskItem.h; sourceTree = "<group>"; };
 		5A751A0C1AD6313300B0DF64 /* TaskItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskItem.m; sourceTree = "<group>"; };
+		B2C2F3051AD7457700069FB1 /* SubChildVC1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubChildVC1ViewController.h; sourceTree = "<group>"; };
+		B2C2F3061AD7457700069FB1 /* SubChildVC1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubChildVC1ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 				5A751A061AD6274600B0DF64 /* ChildTVC1.m */,
 				5A7519FC1AD5F86000B0DF64 /* ChildVC1.h */,
 				5A7519FD1AD5F86000B0DF64 /* ChildVC1.m */,
+				B2C2F3051AD7457700069FB1 /* SubChildVC1ViewController.h */,
+				B2C2F3061AD7457700069FB1 /* SubChildVC1ViewController.m */,
 				5A7519FF1AD5F88A00B0DF64 /* ChildVC2.h */,
 				5A751A001AD5F88A00B0DF64 /* ChildVC2.m */,
 				5A751A021AD5F8AB00B0DF64 /* ChildVC3.h */,
@@ -252,6 +257,7 @@
 				5A751A071AD6274600B0DF64 /* ChildTVC1.m in Sources */,
 				5A751A0D1AD6313300B0DF64 /* TaskItem.m in Sources */,
 				5A7519FB1AD5F82A00B0DF64 /* ParentVC.m in Sources */,
+				B2C2F3071AD7457700069FB1 /* SubChildVC1ViewController.m in Sources */,
 				5A7519DC1AD5F72500B0DF64 /* ViewController.m in Sources */,
 				5A751A011AD5F88A00B0DF64 /* ChildVC2.m in Sources */,
 				5A7519D91AD5F72500B0DF64 /* AppDelegate.m in Sources */,
@@ -450,6 +456,7 @@
 				5A7519F51AD5F72500B0DF64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A7519F61AD5F72500B0DF64 /* Build configuration list for PBXNativeTarget "MultiVCDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -458,6 +465,7 @@
 				5A7519F81AD5F72500B0DF64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
